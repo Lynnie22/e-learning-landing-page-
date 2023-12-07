@@ -1,0 +1,117 @@
+body {
+    font-size: 16px ;
+    margin: 3rem;
+}
+
+.nav-styled {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonstyle1 {
+    color: white;
+    background-color: #13183d;
+    border-radius: 40px;
+    text-align: center;
+    padding: 0 1rem;
+}
+
+.main-container {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: minmax(384px, 720px) minmax(384px, 720px) ;
+}
+
+
+
+.introductory{
+    padding-right: 2rem;
+
+}
+    h1{
+        font-size: 70px;
+        font-weight: bold;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: 'Plus Jakarta Sans', sans-serif;
+
+    }
+
+
+
+
+
+/* .img-style {
+    max-width: 720px;
+    height: 800px;
+    object-fit: cover;
+}
+*/
+
+.courses-container
+{
+    gap: 1rem;
+    display: grid;
+    grid-template-rows: 322px 322px;
+    grid-template-columns: 350px 350px 350px;
+    background-image:linear-gradient(white, rgb(240, 241, 255)) ;
+
+}
+
+
+.card1 {
+    background-image: linear-gradient(#F02AA6, #FF6F48);
+    border-radius: 1rem;
+    font-weight: bold;
+    font-size: 32px;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.animation-card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.design-card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.photography-card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.crypto-card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.business-card{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #13183F;
+
+}
+
+.buttonstyled2 {
+    color: white;
+    background-image: linear-gradient(#7851ff,  #F02AA6);
+    border-radius: 40px;
+    text-align: center;
+    padding: 10px 20;
+}
